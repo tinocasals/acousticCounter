@@ -30,6 +30,14 @@
         <container size="1000" static="false">count5</container>
         <container size="1000" static="false">count6</container>
         <container size="1000" static="false">count7</container>
+        <container size="1000" static="false">count8</container>
+        <container size="1000" static="false">count9</container>
+        <container size="1000" static="false">count10</container>
+        <container size="1000" static="false">count11</container>
+        <container size="1000" static="false">count12</container>
+        <container size="1000" static="false">count13</container>
+        <container size="1000" static="false">count14</container>
+        <container size="1000" static="false">count15</container>
         <container size="1000" static="false">sum</container>
         <container size="1000" static="false">rate</container>
         <container size="1000" static="false">quotient</container>
@@ -43,6 +51,14 @@
         <container size="1000" static="false">ifResult5</container>
         <container size="1000" static="false">ifResult6</container>
         <container size="1000" static="false">ifResult7</container>
+        <container size="1000" static="false">ifResult8</container>
+        <container size="1000" static="false">ifResult9</container>
+        <container size="1000" static="false">ifResult10</container>
+        <container size="1000" static="false">ifResult11</container>
+        <container size="1000" static="false">ifResult12</container>
+        <container size="1000" static="false">ifResult13</container>
+        <container size="1000" static="false">ifResult14</container>
+        <container size="1000" static="false">ifResult15</container>
         <container size="1000" static="false">result1</container>
         <container size="1000" static="false">result2</container>
         <container size="1000" static="false">result3</container>
@@ -50,18 +66,42 @@
         <container size="1000" static="false">result5</container>
         <container size="1000" static="false">result6</container>
         <container size="1000" static="false">result7</container>
+        <container size="1000" static="false">result8</container>
+        <container size="1000" static="false">result9</container>
+        <container size="1000" static="false">result10</container>
+        <container size="1000" static="false">result11</container>
+        <container size="1000" static="false">result12</container>
+        <container size="1000" static="false">result13</container>
+        <container size="1000" static="false">result14</container>
+        <container size="1000" static="false">result15</container>
         <container size="1000" static="false">dt2</container>
         <container size="1000" static="false">dt3</container>
         <container size="1000" static="false">dt4</container>
         <container size="1000" static="false">dt5</container>
         <container size="1000" static="false">dt6</container>
         <container size="1000" static="false">dt7</container>
+        <container size="1000" static="false">dt8</container>
+        <container size="1000" static="false">dt9</container>
+        <container size="1000" static="false">dt10</container>
+        <container size="1000" static="false">dt11</container>
+        <container size="1000" static="false">dt12</container>
+        <container size="1000" static="false">dt13</container>
+        <container size="1000" static="false">dt14</container>
+        <container size="1000" static="false">dt15</container>
         <container size="1000" static="false">n2</container>
         <container size="1000" static="false">n3</container>
         <container size="1000" static="false">n4</container>
         <container size="1000" static="false">n5</container>
         <container size="1000" static="false">n6</container>
         <container size="1000" static="false">n7</container>
+        <container size="1000" static="false">n8</container>
+        <container size="1000" static="false">n9</container>
+        <container size="1000" static="false">n10</container>
+        <container size="1000" static="false">n11</container>
+        <container size="1000" static="false">n12</container>
+        <container size="1000" static="false">n13</container>
+        <container size="1000" static="false">n14</container>
+        <container size="1000" static="false">n15</container>
     </data-containers>
     <input>
         <audio rate="48000">
@@ -101,6 +141,46 @@
             <input as="factor" clear="false">dt1</input>
             <input as="factor" type="value">7</input>
             <output as="product">dt7</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">8</input>
+            <output as="product">dt8</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">9</input>
+            <output as="product">dt9</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">10</input>
+            <output as="product">dt10</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">11</input>
+            <output as="product">dt11</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">12</input>
+            <output as="product">dt12</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">13</input>
+            <output as="product">dt13</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">14</input>
+            <output as="product">dt14</output>
+        </multiply>
+        <multiply>
+            <input as="factor" clear="false">dt1</input>
+            <input as="factor" type="value">15</input>
+            <output as="product">dt15</output>
         </multiply>
         <timer>
             <output as="out">t</output>
@@ -161,6 +241,54 @@
             <input as="true" clear="false">ifResult</input>
             <output as="result">result7</output>
         </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt8</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result8</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt9</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result9</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt10</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result10</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt11</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result11</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt12</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result12</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt13</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result13</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt14</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result14</output>
+        </if>
+        <if less="true" equal="false" greater="false">
+            <input as="a" clear="false">t</input>
+            <input as="b" clear="false">dt15</input>
+            <input as="true" clear="false">ifResult</input>
+            <output as="result">result15</output>
+        </if>
         <count>
             <input as="buffer" clear="false">result1</input>
             <output as="count">count1</output>
@@ -188,6 +316,38 @@
         <count>
             <input as="buffer" clear="false">result7</input>
             <output as="count">count7</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result8</input>
+            <output as="count">count8</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result9</input>
+            <output as="count">count9</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result10</input>
+            <output as="count">count10</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result11</input>
+            <output as="count">count11</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result12</input>
+            <output as="count">count12</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result13</input>
+            <output as="count">count13</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result14</input>
+            <output as="count">count14</output>
+        </count>
+        <count>
+            <input as="buffer" clear="false">result15</input>
+            <output as="count">count15</output>
         </count>
         <subtract>
             <input as="minuend" clear="false">count2</input>
@@ -219,6 +379,46 @@
             <input as="subtrahend" clear="false">count6</input>
             <output as="difference">n7</output>
         </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count8</input>
+            <input as="subtrahend" clear="false">count7</input>
+            <output as="difference">n8</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count9</input>
+            <input as="subtrahend" clear="false">count8</input>
+            <output as="difference">n9</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count10</input>
+            <input as="subtrahend" clear="false">count9</input>
+            <output as="difference">n10</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count11</input>
+            <input as="subtrahend" clear="false">count10</input>
+            <output as="difference">n11</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count12</input>
+            <input as="subtrahend" clear="false">count11</input>
+            <output as="difference">n12</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count13</input>
+            <input as="subtrahend" clear="false">count12</input>
+            <output as="difference">n13</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count14</input>
+            <input as="subtrahend" clear="false">count13</input>
+            <output as="difference">n14</output>
+        </subtract>
+        <subtract>
+            <input as="minuend" clear="false">count15</input>
+            <input as="subtrahend" clear="false">count14</input>
+            <output as="difference">n15</output>
+        </subtract>
     </analysis>
     <views>
         <view label="Configuration">
@@ -232,7 +432,7 @@
                 <input axis="y">out</input>
             </graph>
             <value label="Events" size="1" precision="2" scientific="false" unit="" factor="1">
-                <input>count7</input>
+                <input>count15</input>
             </value>
             <separator height="1" color="404040">
             </separator>
@@ -261,6 +461,30 @@
             <value label="N7" size="1" precision="0" scientific="false" unit="" factor="1">
                 <input>n7</input>
             </value>
+            <value label="N8" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n8</input>
+            </value>
+            <value label="N9" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n9</input>
+            </value>
+            <value label="N10" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n10</input>
+            </value>
+            <value label="N11" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n11</input>
+            </value>
+            <value label="N12" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n12</input>
+            </value>
+            <value label="N13" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n13</input>
+            </value>
+            <value label="N14" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n14</input>
+            </value>
+            <value label="N15" size="1" precision="0" scientific="false" unit="" factor="1">
+                <input>n15</input>
+            </value>
             <button label="Reset">
                 <input type="value">0</input>
                 <output>count1</output>
@@ -276,6 +500,22 @@
                 <output>count6</output>
                 <input type="value">0</input>
                 <output>count7</output>
+                <input type="value">0</input>
+                <output>count8</output>
+                <input type="value">0</input>
+                <output>count9</output>
+                <input type="value">0</input>
+                <output>count10</output>
+                <input type="value">0</input>
+                <output>count11</output>
+                <input type="value">0</input>
+                <output>count12</output>
+                <input type="value">0</input>
+                <output>count13</output>
+                <input type="value">0</input>
+                <output>count14</output>
+                <input type="value">0</input>
+                <output>count15</output>
             </button>
         </view>
     </views>
